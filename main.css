@@ -1,0 +1,90 @@
+.a__main__box {
+  margin: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.a__main__img {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.a__main__title {
+  margin: 0;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+}
+
+.a__main__text {
+  margin: 0;
+  color: gray;
+  font-size: 15px;
+}
+
+.a__main__ellipsis {
+  color: gray;
+}
+
+.a__main__box__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+}
+
+.a__main__now-playing {
+  margin: 10px 0 0 0;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 350px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.a__main__now-playing__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.a__main__now-playing__btn__pause {
+  font-size: 30px;
+}
+
+.a__main__now-playing__font {
+  margin: 0;
+}
+
+.b__main__time {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b__main__time__info {
+  color: var(--color);
+  font-weight: bold;
+}
+
+.b__main__running {
+  width: 400px;
+  height: 10px;
+}
+
+.b__main__playing__btn {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b__main__playing__btn__color {
+  color: var(--color);
+}
