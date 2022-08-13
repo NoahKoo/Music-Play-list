@@ -1,9 +1,24 @@
 .a__main__box {
-  margin: 10px 20px 10px 20px;
+  padding: 0 20px 0 20px;
+  width: 350px;
+  height: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+}
+
+.a__main__position__box {
+  position: relative;
+  border-radius: 25px;
+  border: 2px solid white;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.a__main__position__box__beat {
+  position: absolute;
+  left: 40px;
+  color: white;
 }
 
 .a__main__img {
